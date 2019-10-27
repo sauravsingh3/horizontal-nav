@@ -1,4 +1,41 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #79756f;
+  border: 2px solid #595652;
+  height: 20%
+  text-align: center;
+}
+
 h1 {
+  font-family: bevan, serif;
   color: #fff;
-  font-family: "Bevan", sans-serif;
+  margin-top: .3em;
+  margin-bottom: .1em;
+}
+
+nav ul {
+  text-align: center;
+  margin-top: .1em;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
 }
